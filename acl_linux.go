@@ -113,3 +113,7 @@ func (pset *Permset) String() string {
 
 	return fmt.Sprintf("%c%c%c", r, w, e)
 }
+
+func AclCmp(acl1 *ACL, acl2 *ACL) int {
+    return int(C.acl_cmp(acl1.a, acl2.a))
+}
