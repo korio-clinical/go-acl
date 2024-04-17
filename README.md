@@ -1,5 +1,7 @@
 # go-acl
 
+Exactly the same code as the upstream fork, only adds linux extension `acl_cmp` function to acl_linux.go
+
 Golang POSIX.1e ACL bindings.
 Essentially bindings to /usr/include/sys/acl.h
 ## notes
