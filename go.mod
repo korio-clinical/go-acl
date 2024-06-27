@@ -1,4 +1,4 @@
-module github.com/jl2501/go-acl
+module github.com/korio-clinical/go-acl
 
 go 1.22.2
 
